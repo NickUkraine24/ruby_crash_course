@@ -11,8 +11,17 @@ p "Hello"
 puts 'Mykolyshyn Pavlo'
 print "String"
 
+#Boolean
+bool = true
+p bool
+print bool 
+puts bool
+
 #Symbol 
-:ruby_rules 
+ruby = :a
+p ruby
+print ruby
+puts ruby
 
 #Array 
 ary = [1, 2, "one", 2.5]
@@ -22,6 +31,9 @@ print ary
 
 #Hash
 h = {foo: 0, bar: 1, baz: 2}
+p h
+print h 
+puts h
 
 # ex2
 apple = 130
