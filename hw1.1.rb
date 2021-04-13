@@ -2,17 +2,14 @@
 int = 100
 print int
  
-
 float = 125.5
 print float
-
 
 bool = true
 print bool
 
 bool1 = false
 print bool1
-
 
 s = "Hello World!"
 print s
@@ -23,7 +20,7 @@ hash = {a: 1, b: 2, c: 3}
 print hash
 
 #ex2
-orange = 130
+apple = 130
 prune = 170
 fruits = apple + prune
 print fruits
