@@ -1,8 +1,8 @@
 #ex1
-int = 100
+int = 1
 print int
  
-float = 125.5
+float = 3.14
 print float
 
 bool = true
