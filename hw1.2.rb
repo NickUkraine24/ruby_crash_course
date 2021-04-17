@@ -1,1 +1,2 @@
-p "test5"
+food = %W(bacon orange apple)
+p food
