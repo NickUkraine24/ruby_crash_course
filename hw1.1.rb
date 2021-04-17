@@ -2,7 +2,7 @@
 
 int=1
 p int
-print (int) #без переносу
+print int #без переносу
 puts int
 
 bool=true
@@ -10,7 +10,7 @@ p bool
 print bool #без переносу
 puts bool
 
-Str="hello world!"
+str="hello world!"
 p Str # з лапками
 print Str # без лапок і переносу
 puts Str # без лапок
@@ -26,7 +26,7 @@ p h
 print h # без переносу
 puts h
 
-Sym=:a
+sym=:a
 p Sym
 print Sym # без переносу
 puts Sym
