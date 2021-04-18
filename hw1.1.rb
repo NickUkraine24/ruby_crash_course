@@ -2,8 +2,8 @@
 integer = 1
 boolean = true
 string = "Hello world"
-symbol = 'a'
-array = [1, 2, "str", 'char', 'c', 21.2]
+symbol = :a
+array = [1, 2, "str", :char, :c, 21.2]
 hash = {:foo => 0, :bar => 1, :baz => 2}
 hash1 = {foo: 0, bar: 1, baz: 2}
 p "Result of p:", integer, boolean, string, symbol, array, hash, hash1
