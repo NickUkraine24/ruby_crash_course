@@ -1,3 +1,4 @@
+#ex1
 Eat = ["Bacon", "Orange", "Apple"]
 p Eat
 
@@ -6,7 +7,7 @@ p Eat.last;
 
 Eat.push("Yogurt")
 
-
+#ex2
 country = {
     UK: 'United KIndom',
     GER: 'Germany',
@@ -14,7 +15,7 @@ country = {
 }
 
 p country
-
+#ex3
 course = "course"
 
 p course.gsub("ourse", "anada").upcase
