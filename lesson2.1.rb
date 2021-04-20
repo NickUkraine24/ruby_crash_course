@@ -21,7 +21,7 @@ p 1 == 1 || 2 >= 1
 
 p !true
 p !!1
-
+p "I`m here`"
 car = 1
 if car > 1 && car < 0 || car == 1
   p 'You win!'
@@ -44,6 +44,7 @@ car = 1
 if car > 0
   p 'You win!'
 end
+p "unles:"
 unless 1 < 0
   p 'You win!'
 end
@@ -103,12 +104,13 @@ if a.reverse == a
   p 'It\' a palidrom'
   p "It' a palidrom"
 end
-
+p "3 times aaa"
 3.times do |aaa|
   p aaa
 end
+p "3 times aaa 2"
 3.times { |aaa| p aaa }
-
+p "------"
 a = 3.times
 p a.next.next
 p a.next.next.next
