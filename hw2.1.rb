@@ -6,6 +6,7 @@
 # e. True
 
 # ex3
+
 age = 0
 if age.between?(18, 25)
   puts "U study at university"
