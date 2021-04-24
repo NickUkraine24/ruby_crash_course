@@ -1,73 +1,75 @@
-#1
-#integer
+# frozen_string_literal: true
+
+# 1
+# integer
 
 int = 1
 
-p (int)
-print (int)
+p(int)
+print(int)
 print("\n")
-puts (int)
+puts(int)
 
-#string
+# string
 
-string = "Hello Nick! "
-str2 = "How are you?"
+string = 'Hello Nick! '
+str2 = 'How are you?'
 
 p string
 p str2
-print  string
-print ("\n")
-print  str2
-print ("\n")
+print string
+print("\n")
+print str2
+print("\n")
 puts string
 puts str2
 
-#bool
+# bool
 
-bool = true 
+bool = true
 
 p bool
-print  bool
-print ("\n")
+print bool
+print("\n")
 puts bool
 
-#array
+# array
 
-mass = [12,32,41,1]
+mass = [12, 32, 41, 1]
 
 p mass
-print  mass
-puts ""
+print mass
+puts ''
 puts mass
 
-#Hash
+# Hash
 
-h = {:foo=> 2, :bar=>5, :bash=>4}
+h = { foo: 2, bar: 5, bash: 4 }
 
 p h
-print  h
-puts ""
+print h
+puts ''
 puts h
 
-#2
+# 2
 
-apple = 130 
-prune =170
+apple = 130
+prune = 170
 
 fruits = apple + prune
 
 puts fruits
 
-#3 
+# 3
 
 hash = {}
 p hash
 hash1 = Hash[]
 p hash1
-hash2 = Hash.new
+hash2 = {}
 p hash2
 
 mass1 = []
 p mass1
-mass2 = Array.new
+mass2 = []
 p mass2
