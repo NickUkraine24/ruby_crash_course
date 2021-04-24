@@ -55,7 +55,6 @@ p person.replace(
 	name: 'Bob', 
 	position: 'web developer',
 	hobbies: ['play football', 'listening to music', 'watching tv'])
-=end
 
 # ex4
 cat = {name: "Tommy"}
@@ -64,6 +63,7 @@ p cat.merge(weight)
 p cat.merge!(weight)
 # Using merge! is faster than merge
 # merge! modifies the original hash, you won’t have a copy of that original object		
+=end
 
 # ex6
 person = {
@@ -73,6 +73,7 @@ person = {
 }
 p person.has_value?('Bob')
 
+# ex7
 person = {
 	name: 'Bob', 
 	position: 'web developer', 
@@ -81,7 +82,7 @@ person = {
 person.delete(:position)
 p person
 
-# ex7
+# ex8
 
 a = 9
 b = 3
