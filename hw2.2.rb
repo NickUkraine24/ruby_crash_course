@@ -12,6 +12,7 @@ p person
 person.delete(:hobbies)
 person.merge!({hobbies:%w[reading dancing cooking]})
 p person
+p person.each{|k,v|person[:hobbies]=%w[reading dancing cooking]}
 #ex 4
 cat = {name: "Tommy"}
 weight = {weight: "2 kg"}
