@@ -55,6 +55,7 @@ p person.replace(
 	name: 'Bob', 
 	position: 'web developer',
 	hobbies: ['play football', 'listening to music', 'watching tv'])
+=end
 
 # ex4
 cat = {name: "Tommy"}
@@ -79,7 +80,6 @@ person = {
 }
 person.delete(:position)
 p person
-=end
 
 # ex7
 
