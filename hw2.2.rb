@@ -83,7 +83,6 @@ person.delete(:position)
 p person
 
 # ex8
-
 a = 9
 b = 3
 
