@@ -31,7 +31,7 @@ weight = {weight: "2 kg"}
 =end
 
 # ex6
-p person.value?("Bob")
+p person.value? "Bob"
 
 # ex7
 person.delete(:position)
