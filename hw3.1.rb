@@ -16,7 +16,7 @@ person = { name: 'Den', age: 23, position: 'mentor' }
 
 begin 
 raise
- peron.keys?(:position) 
+ person.keys?(:position) 
  person.values?('mentor')
 
 
