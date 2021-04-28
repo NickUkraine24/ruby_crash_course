@@ -17,5 +17,5 @@ begin
   p i=3.mmm
 rescue StandardError => e
   p "This is StandardError"#"This is StandardError"
-  p e #message of error
+  p e.message #message of error
 end
