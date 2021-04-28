@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # ex 1
-path='test_file_lesson_3.1.txt'
+path='test_file_lesson_3.1.txt' # тут потрібно відкривати та закривати файл?
 file = File.readlines(path)
 p file[0]
 #or
