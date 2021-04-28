@@ -1,3 +1,5 @@
+#! /usr/bin/env ruby
+
 # ex1
 my_file = File.readlines("test_file_hw_3.1.txt")
 p my_file[3].gsub("\n", "")
