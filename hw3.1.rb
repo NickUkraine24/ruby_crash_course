@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # ex 1
 path='test_file_lesson_3.1.txt'
 file = File.readlines(path)
