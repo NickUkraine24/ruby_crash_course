@@ -12,7 +12,7 @@ time = Time.now
 p time.strftime('%Y.%m.%d %H:%M:%S')
 
 #ex 3 
-person = { name: 'Den', age: 23, position1: 'ment1or' }
+person = { name: 'Den', age: 23, position: 'mentor' }
 
 begin 
 raise
