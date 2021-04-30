@@ -107,3 +107,11 @@ a -= b
 a *= b
 a /= b
 a %= b
+
+#just trying to push again
+cat = {name: "Tommy"}
+weight = {weight: "2 kg"}
+cat.merge(weight) #Виведе без змін
+p cat
+cat.merge!(weight) #Змінить хеш на: {name: "Tommy", weight: "2 kg"}
+p cat
