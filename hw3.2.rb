@@ -27,4 +27,4 @@ def multiply (a, b)
   def info_with_kwargs(**kwargs)
     kwargs.each{ |k, v| p "key: #{k} | value: #{v}" }
   end
-  info_with_kwargs(name: "Bob", position: "web developer", hobbies: "painting" )
+  info_with_kwargs(name: "Bob", position: "web developer", hobbies: "coding" )
