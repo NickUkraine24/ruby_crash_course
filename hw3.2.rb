@@ -1,10 +1,11 @@
 #!/usr/bin/env ruby
 # Ex 1
-def greeting(name)
+def greeting(name='John')
   "Hello, my name is #{name}"
 end
 
 puts greeting('Artem')
+puts greeting
 
 # Ex 2
 def multiply(num1, num2)
