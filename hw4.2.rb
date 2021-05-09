@@ -24,13 +24,13 @@ class Rectangle
   end
 
   # ex3
-  def reader_width width
+  def width= width
     if width < 0
       raise "negative value"
     end
     @width = width
   end
-  def reader_height height
+  def height= height
     if height < 0
       raise "negative value"
     end
@@ -44,7 +44,7 @@ rec1.height = 2
 p rec1.area
 
 begin
-  rec1.reader_width(-1)
+  rec1.width=(-1)
 rescue RuntimeError => e
   p e.message
 end
