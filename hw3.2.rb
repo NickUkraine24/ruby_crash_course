@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby -w
+
 #ex1
 def greeting (name = 'John')
     'Hello, ' + name
