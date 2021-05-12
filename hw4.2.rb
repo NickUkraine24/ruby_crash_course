@@ -1,10 +1,12 @@
 #!/usr/bin/env ruby
+
 #1
 class Cat
   def meow
     p "I'm a cat, gimme food & pet me now!"
   end
 end
+
 a = Cat.new
 a.meow
 a.meow
