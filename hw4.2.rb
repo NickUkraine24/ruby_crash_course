@@ -49,5 +49,5 @@ class Rectangle
 end
 
 area = Rectangle.new(-7, 30).area
-p "The area of the rectange is #{area}"
+p "The area of the rectangle is #{area}"
 
