@@ -39,7 +39,7 @@ class Rectangle
 		@width = width
 		@height = height
 		if @width < 0 || @height < 0 
-	 raise "Error. Check the correctness of the entered data"
+			raise "Error. Check the correctness of the entered data"
 	  end
   end
 
