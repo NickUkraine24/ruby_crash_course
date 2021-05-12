@@ -55,4 +55,6 @@ a.write
 a.area
 
 #3
-b = Rectangle.new(23, 0).height = -300
+b = Rectangle.new(23, 0)
+b.width = -78
+b.write
