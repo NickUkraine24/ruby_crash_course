@@ -40,8 +40,8 @@ class Rectangle
 		@height = height
 		if @width < 0 || @height < 0 
 			raise "Error. Check the correctness of the entered data"
-	  end
-  end
+		end
+	end
 
 	def area 
 		@width * @height
