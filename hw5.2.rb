@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # ex1
 # input_email = 'e@example.com' #is valid
 # input_email = 'test1_2.course@example.com' #is valid

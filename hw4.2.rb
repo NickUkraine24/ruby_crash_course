@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # ex1
 class Cat
   def meow
