@@ -2,16 +2,16 @@
 
 # ex1
 class Confection
-	def prepare 
-		puts "Baking at 350 degrees for 25 minutes."
-	end
+  def prepare 
+    puts "Baking at 350 degrees for 25 minutes."
+  end
 end
 
 class Cupcake < Confection
-	def prepare
-		super
-		puts "Applying to frost"
-	end
+  def prepare
+    super
+    puts "Applying to frost"
+  end
 end
 
 cupcake = Cupcake.new.prepare
@@ -40,14 +40,14 @@ class Rectangle
 end
 
 class Square < Rectangle
-	def width=(value)
-		@width = value
-		@height = value
-	end
+  def width=(value)
+    @width = value
+    @height = value
+  end
 
-	def height=(value)
-		@height = value
-		@width = value
+  def height=(value)
+    @height = value
+    @width = value
   end
 end
 
