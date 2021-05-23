@@ -8,11 +8,10 @@ class Cat
 end
 
 cat = Cat.new
-3.times {cat.meow}
+# 3.times {cat.meow}
 
 # ex2
 class Rectangle
-  attr_accessor :height, :width
 
   def initialize(width, height)
     @width = width
@@ -35,7 +34,7 @@ class Rectangle
   def width=(value)
     if value.negative?
       begin
-      raise "Width should be a positive value!"
+        raise "Width should be a positive value!"
       rescue Exception => e
         p e.message
       end
@@ -56,4 +55,5 @@ class Rectangle
 
 end
 
-Rectangle.new(1, 4).height=(-2)
+
+# Rectangle.new(1, 4).height=(-2)
