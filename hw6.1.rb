@@ -22,19 +22,27 @@ class Rectangle
   attr_reader :width, :height
 
   def width=(value)
-    if value > 0
-      @width = value
-    else
-      raise "Error: width <= 0"
-    end
+    # if value > 0
+    #   @width = value
+    # else
+    #   raise "Error: width <= 0"
+    # end
+
+    return raise "Error: width <= 0" if value <= 0
+
+    @width = value
   end
 
   def height=(value)
-    if value > 0
-      @height = value
-    else
-      raise "Error: width <= 0"
-    end
+    # if value > 0
+    #   @height = value
+    # else
+    #   raise "Error: width <= 0"
+    # end
+
+    return raise "Error: width <= 0" if value <= 0
+
+    @height = value
   end
 
   def area
